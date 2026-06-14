@@ -1,0 +1,27 @@
+{
+  "task_name": "MFPCBA-1053173-743445",
+  "sd_aid": "743445",
+  "dr_aid": "1053173",
+  "sd_columns": [
+    "REPLICATE_A_ACTIVITY_SCORE_12.48uM_(%)"
+  ],
+  "dr_columns": [
+    "pAC50_M"
+  ],
+  "sd_train_n": 296386,
+  "sd_train_pos": 144,
+  "sd_train_neg": 296242,
+  "sd_train_active_rate": 0.0005,
+  "dr_val_n": 694,
+  "dr_val_pos": 173,
+  "dr_val_neg": 521,
+  "dr_test_n": 694,
+  "dr_test_pos": 173,
+  "dr_test_neg": 521,
+  "dr_total_n": 1388,
+  "dr_paired_n": 1388,
+  "dr_unpaired_n": 0,
+  "sd_dr_label_disagreement": 0.7507,
+  "split_seed": 42,
+  "dr_val_ratio": 0.5
+}

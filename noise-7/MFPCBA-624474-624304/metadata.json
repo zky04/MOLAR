@@ -1,0 +1,27 @@
+{
+  "task_name": "MFPCBA-624474-624304",
+  "sd_aid": "624304",
+  "dr_aid": "624474",
+  "sd_columns": [
+    "Ratio:Normalized at 21.8 uM"
+  ],
+  "dr_columns": [
+    "IC50_Mean"
+  ],
+  "sd_train_n": 344227,
+  "sd_train_pos": 381,
+  "sd_train_neg": 343846,
+  "sd_train_active_rate": 0.0011,
+  "dr_val_n": 663,
+  "dr_val_pos": 122,
+  "dr_val_neg": 541,
+  "dr_test_n": 664,
+  "dr_test_pos": 122,
+  "dr_test_neg": 542,
+  "dr_total_n": 1327,
+  "dr_paired_n": 1327,
+  "dr_unpaired_n": 0,
+  "sd_dr_label_disagreement": 0.8154,
+  "split_seed": 42,
+  "dr_val_ratio": 0.5
+}

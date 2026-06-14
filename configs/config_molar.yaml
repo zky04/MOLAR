@@ -1,0 +1,31 @@
+device: null
+data_root: noise-7
+num_tasks: 1
+num_epochs: 50
+batch_size: 512
+warmup_epochs: 5
+lr: 0.0003
+weight_decay: 0.00001
+patience_epoch: 20
+grad_clip: 5.0
+ema_momentum: 0.995
+force_zero_text: false
+sampler_mode: shuffle
+model_args:
+  hidden_dim: 256
+  embedding_dim: 256
+  endpoint_emb_dim: 64
+  num_tasks: 1
+  gnn_layers: 4
+  dropout: 0.2
+  method_strict: true
+  beta_conflict: 0.1
+  gamma_pert: 0.3
+  gamma_temporal: 0.3
+  beta_mod: 0.0
+  unimodal_weight: 0.0
+  evidence_l2: 0.0
+  supervised_target: observed
+  noise_init_diag: 0.95
+  noise_channel_lr_scale: 0.1
+  initialize_endpoint_bias_from_observed_prevalence: true

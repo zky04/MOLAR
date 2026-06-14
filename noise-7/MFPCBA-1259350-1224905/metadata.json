@@ -1,0 +1,30 @@
+{
+  "task_name": "MFPCBA-1259350-1224905",
+  "sd_aid": "1224905",
+  "dr_aid": "1259350",
+  "sd_columns": [
+    "Z-score_A",
+    "Z-score_B"
+  ],
+  "dr_columns": [
+    "mP_A",
+    "mP_B",
+    "mP_C"
+  ],
+  "sd_train_n": 201917,
+  "sd_train_pos": 401,
+  "sd_train_neg": 201516,
+  "sd_train_active_rate": 0.002,
+  "dr_val_n": 284,
+  "dr_val_pos": 106,
+  "dr_val_neg": 178,
+  "dr_test_n": 285,
+  "dr_test_pos": 107,
+  "dr_test_neg": 178,
+  "dr_total_n": 569,
+  "dr_paired_n": 569,
+  "dr_unpaired_n": 0,
+  "sd_dr_label_disagreement": 0.4341,
+  "split_seed": 42,
+  "dr_val_ratio": 0.5
+}
